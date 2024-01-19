@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=SortedSetNode
+comment0.text=\r\n\ \r\n
+comment1.params=element\ lessThanNode\ greaterThanNode
+comment1.target=SortedSetNode(java.lang.Object,\ SortedSetNode,\ SortedSetNode)
+comment2.params=
+comment2.target=java.lang.Object\ getElement()
+comment3.params=element
+comment3.target=void\ setElement(java.lang.Object)
+comment4.params=
+comment4.target=SortedSetNode\ getLessThanNode()
+comment5.params=lessThanNode
+comment5.target=void\ setLessThanNode(SortedSetNode)
+comment6.params=
+comment6.target=SortedSetNode\ getGreaterThanNode()
+comment7.params=greaterThanNode
+comment7.target=void\ setGreaterThanNode(SortedSetNode)
+numComments=8
