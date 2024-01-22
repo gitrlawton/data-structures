@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=SortedSetNode
-comment0.text=\r\n\ \r\n
+comment0.text=\r\n\ The\ SortedSetNode\ class.\r\n
 comment1.params=element\ lessThanNode\ greaterThanNode
 comment1.target=SortedSetNode(java.lang.Object,\ SortedSetNode,\ SortedSetNode)
 comment2.params=

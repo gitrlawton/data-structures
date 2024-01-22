@@ -281,10 +281,11 @@ public class SortedSet<E extends Comparable<E>>
                 {
                     currentNode.getGreaterThanNode().setLessThanNode(currentNode.getLessThanNode());
                     currentNode.getLessThanNode().setGreaterThanNode(currentNode.getGreaterThanNode());
+                    size--;
                 }
 
                 removed = true;
-                size--;
+                //size--;
             }
             else
             {
@@ -315,16 +316,10 @@ public class SortedSet<E extends Comparable<E>>
 
         SortedSetNode<E> currentNode = new SortedSetNode<E>(smallestValueNode.getElement(), null, smallestValueNode.getGreaterThanNode());
 
-        boolean replaced = false;
-        while (currentNode != null && !replaced)
+        if (contains(originalValue))
         {
-            if (currentNode.getElement() == originalValue)
-            {
-                currentNode.setElement(newValue);
-                replaced = true;
-            }
-
-            currentNode = currentNode.getGreaterThanNode();
+            remove(originalValue);
+            add(newValue);
         }
     }
 

@@ -1,7 +1,7 @@
 // PROGRAMMERS: NATHAN JORDAN, TIFFANY TRUONG, RYAN LAWTON
 
 /**
- * 
+ * The OrderedQueueNode class.
  */
 public class OrderedQueueNode<E>
 {

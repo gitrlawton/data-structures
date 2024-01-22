@@ -1,6 +1,6 @@
 // PROGRAMMERS: NATHAN JORDAN, TIFFANY TRUONG, RYAN LAWTON
 /**
- * 
+ * The SortedSetNode class.
  */
 public class SortedSetNode<E>
 {
