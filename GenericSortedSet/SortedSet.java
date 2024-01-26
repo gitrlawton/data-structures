@@ -68,6 +68,16 @@ public class SortedSet<E extends Comparable<E>>
         return smallestValueNode.getElement();
     }
 
+    public SortedSetNode<E> getSmallestNode()
+    {
+        if (size == 0)
+        {
+            return null;
+        }
+
+        return smallestValueNode;
+    }
+    
     public E getLargestValue()
     {
         if (size == 0)
@@ -76,6 +86,16 @@ public class SortedSet<E extends Comparable<E>>
         }
 
         return largestValueNode.getElement();
+    }
+    
+    public SortedSetNode<E> getLargestNode()
+    {
+        if (size == 0)
+        {
+            return null;
+        }
+
+        return largestValueNode;
     }
 
     public boolean contains(E element)

@@ -44,7 +44,17 @@ public class OrderedQueue<E>
         }
         return (false); 
     }
-
+    
+    public OrderedQueueNode<E> getOldestNode()
+    {
+        if (size == 0)
+        {
+            return (null); 
+        }
+        
+        return oldestNode; 
+    }
+    
     public E getOldestValue()
     {
         if (size == 0)
